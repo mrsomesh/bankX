@@ -1,0 +1,147 @@
+Db Name : bankx
+
+CREATE TABLE `account_numbers` (
+  `id` int(4) NOT NULL auto_increment,
+  `account_number` varchar(20) NOT NULL default '',
+  `status` varchar(10) NOT NULL default '',
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `account_number` (`account_number`)
+)
+
+
+INSERT INTO `account_numbers` VALUES (1, '000-000-0001', 'no');
+INSERT INTO `account_numbers` VALUES (2, '000-000-0002', 'no');
+INSERT INTO `account_numbers` VALUES (3, '000-000-0003', 'no');
+INSERT INTO `account_numbers` VALUES (4, '000-000-0004', 'no');
+INSERT INTO `account_numbers` VALUES (5, '000-000-0005', 'no');
+INSERT INTO `account_numbers` VALUES (6, '000-000-0006', 'no');
+INSERT INTO `account_numbers` VALUES (7, '000-000-0007', 'no');
+INSERT INTO `account_numbers` VALUES (8, '000-000-0008', 'no');
+INSERT INTO `account_numbers` VALUES (9, '000-000-0009', 'no');
+INSERT INTO `account_numbers` VALUES (10, '000-000-0010', 'no');
+INSERT INTO `account_numbers` VALUES (11, '000-000-0011', 'no');
+INSERT INTO `account_numbers` VALUES (12, '000-000-0012', 'no');
+INSERT INTO `account_numbers` VALUES (13, '000-000-0013', 'no');
+INSERT INTO `account_numbers` VALUES (14, '000-000-0014', 'no');
+INSERT INTO `account_numbers` VALUES (15, '000-000-0015', 'no');
+INSERT INTO `account_numbers` VALUES (16, '000-000-0016', 'no');
+INSERT INTO `account_numbers` VALUES (17, '000-000-0017', 'no');
+INSERT INTO `account_numbers` VALUES (18, '000-000-0018', 'no');
+INSERT INTO `account_numbers` VALUES (19, '000-000-0019', 'no');
+INSERT INTO `account_numbers` VALUES (20, '000-000-0020', 'no');
+INSERT INTO `account_numbers` VALUES (21, '000-000-0021', 'no');
+INSERT INTO `account_numbers` VALUES (22, '000-000-0022', 'no');
+INSERT INTO `account_numbers` VALUES (23, '000-000-0023', 'no');
+INSERT INTO `account_numbers` VALUES (24, '000-000-0024', 'no');
+INSERT INTO `account_numbers` VALUES (25, '000-000-0025', 'no');
+INSERT INTO `account_numbers` VALUES (26, '000-000-0026', 'no');
+INSERT INTO `account_numbers` VALUES (27, '000-000-0027', 'no');
+INSERT INTO `account_numbers` VALUES (28, '000-000-0028', 'no');
+INSERT INTO `account_numbers` VALUES (29, '000-000-0029', 'no');
+INSERT INTO `account_numbers` VALUES (30, '000-000-0030', 'no');
+INSERT INTO `account_numbers` VALUES (31, '000-000-0031', 'no');
+INSERT INTO `account_numbers` VALUES (32, '000-000-0032', 'no');
+INSERT INTO `account_numbers` VALUES (33, '000-000-0033', 'no');
+INSERT INTO `account_numbers` VALUES (34, '000-000-0034', 'no');
+INSERT INTO `account_numbers` VALUES (35, '000-000-0035', 'no');
+INSERT INTO `account_numbers` VALUES (36, '000-000-0036', 'no');
+INSERT INTO `account_numbers` VALUES (37, '000-000-0037', 'no');
+INSERT INTO `account_numbers` VALUES (38, '000-000-0038', 'no');
+INSERT INTO `account_numbers` VALUES (39, '000-000-0039', 'no');
+INSERT INTO `account_numbers` VALUES (40, '000-000-0040', 'no');
+INSERT INTO `account_numbers` VALUES (41, '000-000-0041', 'no');
+INSERT INTO `account_numbers` VALUES (42, '000-000-0042', 'no');
+INSERT INTO `account_numbers` VALUES (43, '000-000-0043', 'no');
+INSERT INTO `account_numbers` VALUES (44, '000-000-0044', 'no');
+INSERT INTO `account_numbers` VALUES (45, '000-000-0045', 'no');
+INSERT INTO `account_numbers` VALUES (46, '000-000-0046', 'no');
+INSERT INTO `account_numbers` VALUES (47, '000-000-0047', 'no');
+INSERT INTO `account_numbers` VALUES (48, '000-000-0048', 'no');
+INSERT INTO `account_numbers` VALUES (49, '000-000-0049', 'no');
+INSERT INTO `account_numbers` VALUES (50, '000-000-0050', 'no');
+INSERT INTO `account_numbers` VALUES (51, '000-000-0051', 'no');
+INSERT INTO `account_numbers` VALUES (52, '000-000-0052', 'no');
+INSERT INTO `account_numbers` VALUES (53, '000-000-0053', 'no');
+INSERT INTO `account_numbers` VALUES (54, '000-000-0054', 'no');
+INSERT INTO `account_numbers` VALUES (55, '000-000-0055', 'no');
+INSERT INTO `account_numbers` VALUES (56, '000-000-0056', 'no');
+INSERT INTO `account_numbers` VALUES (57, '000-000-0057', 'no');
+INSERT INTO `account_numbers` VALUES (58, '000-000-0058', 'no');
+INSERT INTO `account_numbers` VALUES (59, '000-000-0059', 'no');
+INSERT INTO `account_numbers` VALUES (60, '000-000-0060', 'no');
+INSERT INTO `account_numbers` VALUES (61, '000-000-0061', 'no');
+INSERT INTO `account_numbers` VALUES (62, '000-000-0062', 'no');
+INSERT INTO `account_numbers` VALUES (63, '000-000-0063', 'no');
+INSERT INTO `account_numbers` VALUES (64, '000-000-0064', 'no');
+INSERT INTO `account_numbers` VALUES (65, '000-000-0065', 'no');
+INSERT INTO `account_numbers` VALUES (66, '000-000-0066', 'no');
+INSERT INTO `account_numbers` VALUES (67, '000-000-0067', 'no');
+INSERT INTO `account_numbers` VALUES (68, '000-000-0068', 'no');
+INSERT INTO `account_numbers` VALUES (69, '000-000-0069', 'no');
+INSERT INTO `account_numbers` VALUES (70, '000-000-0070', 'no');
+INSERT INTO `account_numbers` VALUES (71, '000-000-0071', 'no');
+INSERT INTO `account_numbers` VALUES (72, '000-000-0072', 'no');
+INSERT INTO `account_numbers` VALUES (73, '000-000-0073', 'no');
+INSERT INTO `account_numbers` VALUES (74, '000-000-0074', 'no');
+INSERT INTO `account_numbers` VALUES (75, '000-000-0075', 'no');
+INSERT INTO `account_numbers` VALUES (76, '000-000-0076', 'no');
+INSERT INTO `account_numbers` VALUES (77, '000-000-0077', 'no');
+INSERT INTO `account_numbers` VALUES (78, '000-000-0078', 'no');
+INSERT INTO `account_numbers` VALUES (79, '000-000-0079', 'no');
+INSERT INTO `account_numbers` VALUES (80, '000-000-0080', 'no');
+INSERT INTO `account_numbers` VALUES (81, '000-000-0081', 'no');
+INSERT INTO `account_numbers` VALUES (82, '000-000-0082', 'no');
+INSERT INTO `account_numbers` VALUES (83, '000-000-0083', 'no');
+INSERT INTO `account_numbers` VALUES (84, '000-000-0084', 'no');
+INSERT INTO `account_numbers` VALUES (85, '000-000-0085', 'no');
+INSERT INTO `account_numbers` VALUES (86, '000-000-0086', 'no');
+INSERT INTO `account_numbers` VALUES (87, '000-000-0087', 'no');
+INSERT INTO `account_numbers` VALUES (88, '000-000-0088', 'no');
+
+-------------------------------------------------------------------------------------------
+
+
+CREATE TABLE `transactions` (
+  `id` int(4) NOT NULL auto_increment,
+  `account_number` varchar(20) NOT NULL default '',
+  `amount` int(15) NOT NULL default '0',
+  `details` varchar(50) NOT NULL default '',
+  `time` varchar(30) NOT NULL default '',
+  `day` varchar(30) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+)
+
+
+--------------------------------------------------------------------------------------------
+
+CREATE TABLE `credentials` (
+  `id` int(4) NOT NULL auto_increment,
+  `account_number` varchar(20) NOT NULL default '',
+  `unique_id` varchar(30) NOT NULL default '',
+  `username` varchar(30) NOT NULL default '',
+  `password` varchar(80) NOT NULL default '',
+  `gender` varchar(10) NOT NULL default '',
+  `email` varchar(80) NOT NULL default '',
+  `mobile` varchar(20) NOT NULL default '',
+  `state` varchar(80) NOT NULL default '',
+  `pincode` varchar(20) NOT NULL default '',
+  `authorization` varchar(8) NOT NULL default '',
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `account_number` (`account_number`),
+  UNIQUE KEY `unique_id` (`unique_id`)
+)
+
+
+-------------------------------------------------------------------------------------------
+
+CREATE TABLE `user_account` (
+  `id` int(4) NOT NULL auto_increment,
+  `account_number` varchar(20) NOT NULL default '',
+  `unique_id` varchar(30) NOT NULL default '',
+  `username` varchar(30) NOT NULL default '',
+  `balance` int(15) NOT NULL default '0',
+  `day` varchar(30) NOT NULL default '',
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `account_number` (`account_number`),
+  UNIQUE KEY `unique_id` (`unique_id`)
+)
